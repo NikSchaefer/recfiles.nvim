@@ -27,8 +27,6 @@ The plugin automatically:
 1. Detects `.rec` and `.recfile` files
 2. Applies syntax highlighting
 
-No configuration needed!
-
 ## License
 
 MIT
