@@ -1,0 +1,45 @@
+# -*- mode: rec -*-
+# Test file for recfiles.nvim syntax highlighting
+
+%rec: Book
+%mandatory: Title Author
+%type: Status enum new reading read loaned
+%key: ISBN
+%doc:
++ A record representing a book in my personal collection.
+
+Title: The Pragmatic Programmer
+Author: Dave Thomas
+Author: Andy Hunt
+ISBN: 978-0201616224
+Status: read
+Publisher: Addison-Wesley Professional
+Year: 1999
+Pages: 352
+Notes: Excellent book about software development practices
++ And amazing programming advice
+Summary: From journeyman to master
++ This book provides practical advice
++ for writing better code and becoming
++ a more effective programmer.
+
+Title: Clean Code
+Author: Robert C. Martin
+ISBN: 978-0132350884
+Status: reading
+Publisher: Prentice Hall
+Year: 2008
+Description: A handbook of agile software craftsmanship
++ providing guidelines for writing maintainable
++ and readable code with examples in Java.
+
+# Another record type
+%rec: Author
+%mandatory: Name
+%unique: Name
+
+Name: Robert C. Martin
+Nickname: Uncle Bob
+Books: Clean Code
+Books: Clean Architecture
+
