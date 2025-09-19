@@ -13,15 +13,6 @@ A simple Neovim plugin for GNU Recfiles syntax highlighting.
 }
 ```
 
-### Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
-
-```lua
-use {
-  "nikschaefer/recfiles.nvim",
-  ft = "recfiles",
-}
-```
-
 ## Usage
 
 The plugin automatically:
@@ -29,23 +20,6 @@ The plugin automatically:
 2. Applies syntax highlighting
 
 No configuration needed!
-
-## Example
-
-```rec
-# Book collection
-%rec: Book
-%mandatory: Title Author
-
-Title: The Pragmatic Programmer
-Author: Dave Thomas
-Author: Andy Hunt
-Notes: Excellent book about software development \
-with many practical tips.
-Description: From journeyman to master
-+ This book provides practical advice
-+ for writing better code.
-```
 
 ## License
 
