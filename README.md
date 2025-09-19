@@ -13,6 +13,14 @@ A simple Neovim plugin for GNU Recfiles syntax highlighting.
 }
 ```
 
+### Using [mini.deps](https://github.com/echasnovski/mini.deps)
+
+```lua
+MiniDeps.add({
+  source = "nikschaefer/recfiles.nvim",
+})
+```
+
 ## Usage
 
 The plugin automatically:
